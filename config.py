@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "a87c1094edd18650e5dfee0f2bc78bda")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://i.imghippo.com/files/GS3653JdU.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6276113288').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Nh_file_storege_bot") # without @
 PORT = environ.get("PORT", "8080")
 
